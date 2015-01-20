@@ -10,16 +10,18 @@
         }
     ],
     "require": {
-        "silex/silex": "2.0.*@dev"
+        "silex/silex": "~1.2"
     },
     "require-dev": {
         "symfony/browser-kit": "2.3.*",
-        "phpunit/phpunit": "3.7.*"
+        "phpunit/phpunit": "~4.4"
     },
     "autoload": {
         "psr-4": {
             "JDesrosiers\\Silex\\Provider\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
+
 }
